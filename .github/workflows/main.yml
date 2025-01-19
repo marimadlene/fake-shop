@@ -19,6 +19,7 @@ jobs:
     
       - name: Construção da Imagem Docker
         run: echo "Executando o comando Docker Build"
+        
       - name: Envio da Imagem Docker
         run: echo "Executando o comando Docker Push"
 
